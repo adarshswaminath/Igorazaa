@@ -58,7 +58,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Our collab workshops bring together like-minded individuals who are passionate about entrepreneurship, innovation, and collaboration. Participants will work on real-world projects, learn from industry experts, and develop the skills they need to succeed in today's competitive business environment.",
+      "My Lif Is My Message.",
     name: "Collab Workshops",
     user:"Gowrisankar",
     title: "Founder & Leader",
@@ -67,7 +67,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Our incubation programmes offer aspiring business owners the assistance and tools they need to start their own companies. Mentorship, training, funding, and access to other resources will be provided to participants in order to assist them in transforming their ideas into profitable businesses.",
+      "My Lif Is My Message.",
     name: "Incubation Programme",
     user:"Gowrisankar",
 
@@ -77,7 +77,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "Our internship programs offer mentorship opportunities and networking events to help participants grow their professional network and gain insights into the industry. We believe in investing in the next generation of talent and providing them with the resources and support they need to reach their full potential",
+      "My Lif Is My Message.",
     name: "Internship Program",
     user:"Gowrisankar",
     title: "Founder & Leader",

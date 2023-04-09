@@ -10,7 +10,7 @@ const Testimonials = () => (
 
         <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1] text-center">
             <h2 className={styles.heading2}>
-                Features
+                Our Programms
             </h2>
         </div>
         <div className="flex flex-wrap justify-center">

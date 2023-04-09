@@ -40,7 +40,7 @@ const CardDeal = () => (
     <div className="flex flex-wrap sm:justify-start justify-center items-center w-full feedback-container relative z-[1]">
       {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
     </div>
-    <div className="mt-6">
+    <div className="mt-12">
     <div className="w-full flex justify-between items-center md:flex-row flex-col relative z-[1] text-center">
     <h2 className="font-poppins font-semibold xs:text-[48px] text-[40px] text-white w-full">
                 Features

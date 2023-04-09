@@ -1,9 +1,12 @@
 import { card } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import { feedback } from "../constants";
+import FeedbackCard from "./FeedbackCard";
 
 const CardDeal = () => (
-  <section className={layout.section}>
+  <div id="industarials">
+    <section className={layout.section} >
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
       IGORAZA Industries
@@ -19,6 +22,11 @@ const CardDeal = () => (
       <img src={card} alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>
+  <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
+    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+      {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
+    </div>
+  </div>
 );
 
 export default CardDeal;

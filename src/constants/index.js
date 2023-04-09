@@ -10,10 +10,6 @@ export const navLinks = [
     title: "About us",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
     id: "features",
     title: "Features",
   },
@@ -62,24 +58,24 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+      "Our collab workshops bring together like-minded individuals who are passionate about entrepreneurship, innovation, and collaboration. Participants will work on real-world projects, learn from industry experts, and develop the skills they need to succeed in today's competitive business environment.",
+    name: "Collab Workshops",
     title: "Founder & Leader",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
+      "Our incubation programmes offer aspiring business owners the assistance and tools they need to start their own companies. Mentorship, training, funding, and access to other resources will be provided to participants in order to assist them in transforming their ideas into profitable businesses.",
+    name: "Incubation Programme",
     title: "Founder & Leader",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+      "Our internship programs offer mentorship opportunities and networking events to help participants grow their professional network and gain insights into the industry. We believe in investing in the next generation of talent and providing them with the resources and support they need to reach their full potential",
+    name: "Internship Program",
     title: "Founder & Leader",
     img: people03,
   },

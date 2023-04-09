@@ -41,10 +41,10 @@ const CardDeal = () => (
       {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
     </div>
     <div className="mt-16">
-    <div className="w-full flex justify-between items-center md:flex-row flex-col relative z-[1] text-center">
-    <h2 className="font-poppins font-semibold xs:text-[48px] text-[40px] text-white w-full">
+    <h2 className="font-poppins text-center font-semibold xs:text-[48px] text-[40px] text-white w-full">
                 Our Programs
             </h2>
+    <div className="w-full flex justify-between items-center md:flex-row flex-col relative z-[1] text-center">
         </div>
         <div className="mx-auto flex flex-wrap sm:justify-start justify-center items-center w-full feedback-container relative z-[1]">
       <Box/>

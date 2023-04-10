@@ -99,7 +99,7 @@ export const stats = [
   },
   {
     id: "stats-3",
-    title: "Country",
+    title: "Country's",
     value: "40+",
   },
 ];

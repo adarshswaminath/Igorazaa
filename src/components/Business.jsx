@@ -28,7 +28,11 @@ const Business = () =>  (
       IGORAZA is a technology startup driven by passionate engineers dedicated to creating exceptional solutions for clients using the latest software and techniques. We value innovation, dedication, and perfection, and are committed to delivering incredible results for our partners
       </p>
 
-      <Button styles={`mt-10`} />
+      <a href="#consultancy">
+    <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none mt-10`}>
+    Get Started
+  </button>
+  </a>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

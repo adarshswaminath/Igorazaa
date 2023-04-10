@@ -14,6 +14,10 @@ export const navLinks = [
     title: "Features",
   },
   {
+    id: "contact",
+    title: "Contact",
+  },
+  {
     id: "consultancy",
     title: "Consultancy",
   },
@@ -61,7 +65,7 @@ export const feedback = [
       "My Lif Is My Message.",
     name: "Collab Workshops",
     user:"Gowrisankar",
-    title: "Founder & Leader",
+    title: "Founder & CEO",
     img: people01,
   },
   {
@@ -71,8 +75,8 @@ export const feedback = [
     name: "Incubation Programme",
     user:"Gowrisankar",
 
-    title: "Founder & Leader",
-    img: people02,
+    title: "Founder & CEO",
+    img: people01,
   },
   {
     id: "feedback-3",
@@ -80,8 +84,8 @@ export const feedback = [
       "My Lif Is My Message.",
     name: "Internship Program",
     user:"Gowrisankar",
-    title: "Founder & Leader",
-    img: people03,
+    title: "Founder & CEO",
+    img: people01,
   },
   
 ];

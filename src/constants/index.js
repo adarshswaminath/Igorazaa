@@ -94,7 +94,7 @@ export const stats = [
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Trusted by Company's",
     value: "20+",
   },
   {

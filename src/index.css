@@ -18,17 +18,23 @@
   scroll-behavior: smooth;
 }
 
-html {
-  /* this makes sure the padding and the border is included in the box sizing */
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
 
-html body {
+/* html body {
   padding: 0;
   margin: 0;
   overflow-y: inherit;
+  overflow-x: hidden;
+  box-sizing: border-box;
+} */
+
+
+html, body {
+  overflow-x: hidden;
 }
+body {
+  position: relative;
+}
+
 
 .text-gradient {
   background: radial-gradient(

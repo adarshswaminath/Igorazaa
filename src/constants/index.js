@@ -18,7 +18,7 @@ export const navLinks = [
     title: "Industrials",
   },
   {
-    id: "sparklabs",
+    id: "sparkslabs",
     title: "SparkLabs"
   },
   {

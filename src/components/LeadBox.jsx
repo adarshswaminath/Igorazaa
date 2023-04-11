@@ -2,7 +2,7 @@ import styles from "../style";
 import Button from "./Button";
 
 const LeadBox = () => (
-  <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+  <section id="sparkslabs" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
     <div className="flex-1 flex flex-col">
       <h2 className="font-poppins font-semibold xs:text-[48px] text-[40px] xs:leading-[76.8px] leading-[66.8px] w-full text-center text-[#ff2268]">SparkLabs </h2>
       <p className={`${styles.paragraph} mt-5 text-center`}>

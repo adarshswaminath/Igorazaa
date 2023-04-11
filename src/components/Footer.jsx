@@ -14,19 +14,17 @@ const Footer = () => (
           className="w-[272px] h-[77px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 text-center`}>
-        Start with something simple and small, then expand over time
+        Start with something simple and small,<br/> then expand over time
         </p>
       </div>
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
-        {footerLinks.map((footerlink) => (
+        {/* {footerLinks.map((footerlink) => (
           <div key={footerlink.title} className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
             <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
               {footerlink.title}
             </h4>
             <ul className="list-none mt-4">
-            {/* <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
-                Careers</li> */}
               {footerlink.links.map((link, index) => (
                 <li
                   key={link.name}
@@ -39,7 +37,41 @@ const Footer = () => (
               ))}
             </ul>
           </div>
-        ))}
+        ))} */}
+        <div className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
+            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+              IGORAZA SparkLabs
+            </h4>
+            <ul className="list-none mt-4">
+                <li
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+                  <a href="#sparkslabs">Career</a>
+                </li>
+                <li
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+                  <a href="mailto:teamigoraza@gmail.com" target="_blank">Sparks Labs Session</a>
+                </li>
+                <li
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+                  <a href="#">T&C</a>
+                </li>
+            </ul>
+          </div>
+          <div className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
+            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+              Community
+            </h4>
+            <ul className="list-none mt-4">
+                <li
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+                  <a href="tel:+917736886026" target="_blank">Partners</a>
+                </li>
+                <li
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+                  <a href="https://wa.me/+917736886026?text=Hey+igoraza+" target="_blank">Help Center</a>
+                </li>
+            </ul>
+          </div>
           <div className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
             <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
               Contacts

@@ -1,6 +1,6 @@
 import { quotes } from "../assets";
 
-const FeedbackCard = ({ content, name,user, title, img }) => (
+const FeedbackCard = ({ content, name,user, title, img,icon,link,linked_icon,linked_link }) => (
   <div className="flex justify-between flex-col p-4 rounded-[20px]  max-w-[380px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
     <img src={quotes} alt="double_quotes" className="w-[42.6px] h-[27.6px] object-contain" />
     <p className="font-poppins font-normal  leading-[32.4px] text-white my-10">
@@ -13,8 +13,24 @@ const FeedbackCard = ({ content, name,user, title, img }) => (
         <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
           {user}
         </h4>
-        <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
+        <p className="flex gap-2 font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
           {title}
+          <a href={link} target="_blank">
+          <img
+            key={user}
+            src={icon}
+            alt={user}
+            className={`w-[21px] h-[21px] object-contain cursor-pointer`}
+          />
+          </a>
+          <a href={linked_link} target="_blank">
+          <img
+            key={user}
+            src={linked_icon}
+            alt={user}
+            className={`w-[21px] h-[21px] object-contain cursor-pointer`}
+          />
+          </a>
         </p>
       </div>
     </div>

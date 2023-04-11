@@ -6,8 +6,7 @@ const CTA = () => (
     <div className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>Let’s try our service now!</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Everything you need to accept card payments and grow your business
-        anywhere on the planet.
+      Igoraza is committed to help out clients 24×7. Feel free to reach out to us for any queries and help
       </p>
     </div>
 

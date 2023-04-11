@@ -64,10 +64,6 @@ export const feedback = [
     user:"Gowrisankar",
     title: "Founder & CEO",
     img: people01,
-    icon: instagram,
-    link: "https://instagram.com/igoraza?igshid=YmMyMTA2M2Y=",
-    linked_icon: linkedin,
-    linked_link: "https://www.linkedin.com/company/igoraza/",
   },
   {
     id: "feedback-2",
@@ -75,12 +71,9 @@ export const feedback = [
       "Technology is best when it brings people together",
     name: "Incubation Programme",
     user:"Gowrisankar",
+
     title: "Founder & CEO",
     img: people01,
-    icon: instagram,
-    link: "https://instagram.com/igoraza?igshid=YmMyMTA2M2Y=",
-    linked_icon: linkedin,
-    linked_link: "https://www.linkedin.com/company/igoraza/",
   },
   {
     id: "feedback-3",
@@ -90,10 +83,6 @@ export const feedback = [
     user:"Gowrisankar",
     title: "Founder & CEO",
     img: people01,
-    icon: instagram,
-    link: "https://instagram.com/igoraza?igshid=YmMyMTA2M2Y=",
-    linked_icon: linkedin,
-    linked_link: "https://www.linkedin.com/company/igoraza/",
   },
   
 ];

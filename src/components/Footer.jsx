@@ -7,13 +7,13 @@ import {CgMail} from "react-icons/cg"
 const Footer = () => (
   <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-[1] flex flex-col justify-start mr-10">
+      <div className="flex-[1] flex flex-col justify-center mr-10">
         <img
           src={bg}
           alt="IGORAZA"
           className="w-[272px] h-[77px] object-contain"
         />
-        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
+        <p className={`${styles.paragraph} mt-4 text-center`}>
         Start with something simple and small, then expand over time
         </p>
       </div>

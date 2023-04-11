@@ -18,6 +18,10 @@ export const navLinks = [
     title: "Industrials",
   },
   {
+    id: "sparklabs",
+    title: "SparkLabs"
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -107,24 +111,8 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "IGORAZA Sparklabs",
     links: [
-      {
-        name: "Content",
-        link: "https://www.IGORAZA.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.IGORAZA.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.IGORAZA.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.IGORAZA.com/explore/",
-      },
       {
         name: "Terms & Services",
         link: "https://www.IGORAZA.com/terms-and-services/",

@@ -35,6 +35,7 @@ const Footer = () => (
                   {link.name}
                 </li>
               ))}
+              <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>Careers</li>
             </ul>
           </div>
         ))}

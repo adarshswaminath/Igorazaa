@@ -12,7 +12,9 @@ const GetStarted = () => (
       </div>
       
       <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-        <span className="text-gradient">Started</span>
+      <a href="#aboutus" target="_blank">
+         <span className="text-gradient">Started</span>
+         </a>
       </p>
     </div>
   </div>

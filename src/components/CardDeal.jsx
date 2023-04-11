@@ -34,9 +34,6 @@ const CardDeal = () => (
         Our leads says about us
       </h2>
       <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-        Know us better from our career leads
-        </p>
       </div>
     </div>
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />

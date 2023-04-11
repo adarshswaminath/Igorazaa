@@ -10,14 +10,6 @@ export const navLinks = [
     title: "About us",
   },
   {
-    id: "ourprograms",
-    title: "Our Programs",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-  {
     id: "consultancy",
     title: "Consultancy",
   },
@@ -25,6 +17,11 @@ export const navLinks = [
     id: "industarials",
     title: "Industrials",
   },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+ 
 ];
 
 export const aboutus = [
@@ -178,22 +175,17 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://instagram.com/igoraza?igshid=YmMyMTA2M2Y=",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://www.twitter.com/Igoraza1?s=09",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/igoraza/",
   },
 ];
 

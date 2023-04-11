@@ -49,10 +49,6 @@ const Footer = () => (
                 </li>
                 <li
                   className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
-                  <a href="mailto:teamigoraza@gmail.com" target="_blank">Sparks Labs Session</a>
-                </li>
-                <li
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
                   <a href="#">T&C</a>
                 </li>
             </ul>

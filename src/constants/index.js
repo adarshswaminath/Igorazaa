@@ -63,30 +63,29 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Growth and comfort do not coexist",
+      "Innovate or stagnate.",
     name: "Collab Workshops",
-    user:"Gowrisankar",
+    user:"Gowrishankar V.V",
     title: "Founder & CEO",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Technology is best when it brings people together",
-    name: "Incubation Programme",
-    user:"Gowrisankar",
-
-    title: "Founder & CEO",
-    img: people01,
+      "Digital Reality New Impact",
+    name: "Internship Program",
+    user:"KAVERI T",
+    title: "Co-Founder & CFO",
+    img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "Innovation is the ability to see change as an opportunity not a threat",
-    name: "Internship Program",
-    user:"Gowrisankar",
-    title: "Founder & CEO",
-    img: people01,
+      "IGORAZA creates new worlds.",
+    name: "Incubation Programme",
+    user:"Ashlie Zahra",
+    title: "Business Strategist & COO",
+    img: people02,
   },
   
 ];

@@ -47,7 +47,7 @@ const Footer = () => (
             <ul className="list-none mt-4">
                 <li
                   className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
-                  <a href="tel:+917726886026" target="_blank">+917726886026</a>
+                  <a href="tel:+917736886026" target="_blank">+917736886026</a>
                 </li>
                 <li
                   className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>

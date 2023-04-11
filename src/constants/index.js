@@ -192,11 +192,11 @@ export const socialMedia = [
     icon: facebook,
     link: "https://www.facebook.com/",
   },
-  {
-    id: "social-media-5",
-    icon: gmail,
-    link: "teamigoraza@gmail.com",
-  },
+  // {
+  //   id: "social-media-5",
+  //   icon: gmail,
+  //   link: "teamigoraza@gmail.com",
+  // },
 ];
 
 export const clients = [

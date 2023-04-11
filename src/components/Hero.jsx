@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[50px] text-white ss:leading-[100.8px] leading-[75px]">
             Welcome To<br className="sm:block hidden" />{" "}
-            <span className="text-gradient">IGOROZA</span>{" "}
+            <span className="text-gradient">IGORAZA</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <a href="#aboutus">
@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
 
         {/* <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          IGOROZA
+          IGORAZA
         </h1> */}
         <p className={`${styles.paragraph} max-w-[540px] mt-4 text-[16px]`}>
         Start with something simple and small,

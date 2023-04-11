@@ -115,7 +115,7 @@ export const footerLinks = [
     links: [
       {
         name: "Career",
-        link: "https://wa.me/+917736886026?text=Hey+igoraza+",
+        link: "#sparkslabs",
       },
       {
         name: "T&C",

@@ -13,8 +13,10 @@ const FeedbackCard = ({ content, name,user, title, img,icon,link,linked_icon,lin
         <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
           {user}
         </h4>
-        <p className="flex gap-2 font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
+        <div className="flex justify-between">
+        <p className="flex gap-8  font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
           {title}
+          <div className="flex gap-3">
           <a href={link} target="_blank">
           <img
             key={user}
@@ -31,7 +33,9 @@ const FeedbackCard = ({ content, name,user, title, img,icon,link,linked_icon,lin
             className={`w-[21px] h-[21px] object-contain cursor-pointer`}
           />
           </a>
+          </div>
         </p>
+        </div>
       </div>
     </div>
   </div>

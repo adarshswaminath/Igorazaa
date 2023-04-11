@@ -27,6 +27,9 @@ const CardDeal = () => (
         <img src={card} alt="billing" className="w-[100%] h-[100%]" />
       </div>
     </section>
+    <div className="mx-auto flex flex-wrap sm:justify-start justify-center items-center w-full feedback-container relative z-[1]">
+        <Box />
+      </div>
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1] mt-12">
@@ -45,9 +48,6 @@ const CardDeal = () => (
         Our Programs
       </h2>
       <div className="w-full flex justify-between items-center md:flex-row flex-col relative z-[1] text-center">
-      </div>
-      <div className="mx-auto flex flex-wrap sm:justify-start justify-center items-center w-full feedback-container relative z-[1]">
-        <Box />
       </div>
     </div>
   </div>

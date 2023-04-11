@@ -17,10 +17,10 @@ const CardDeal = () => (
         </p>
 
         <a href="#ourprograms">
-    <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none mt-10`}>
-    Our Programs
-  </button>
-  </a>
+          <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none mt-10`}>
+            Our Programs
+          </button>
+        </a>
       </div>
 
       <div className={layout.sectionImg}>
@@ -31,7 +31,7 @@ const CardDeal = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1] mt-12">
       <h2 className={styles.heading2}>
-      Our leads says about us
+        Our leads says about us
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
@@ -45,14 +45,14 @@ const CardDeal = () => (
       {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
     </div>
     <div className="mt-16">
-    <h2 className="font-poppins text-center font-semibold xs:text-[48px] text-[40px] text-white w-full">
-                Our Programs
-            </h2>
-    <div className="w-full flex justify-between items-center md:flex-row flex-col relative z-[1] text-center">
-        </div>
-        <div className="mx-auto flex flex-wrap sm:justify-start justify-center items-center w-full feedback-container relative z-[1]">
-      <Box/>
-    </div>
+      <h2 className="font-poppins text-center font-semibold xs:text-[48px] text-[40px] text-white w-full">
+        Our Programs
+      </h2>
+      <div className="w-full flex justify-between items-center md:flex-row flex-col relative z-[1] text-center">
+      </div>
+      <div className="mx-auto flex flex-wrap sm:justify-start justify-center items-center w-full feedback-container relative z-[1]">
+        <Box />
+      </div>
     </div>
   </div>
 );

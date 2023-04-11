@@ -37,6 +37,22 @@ const Footer = () => (
             </ul>
           </div>
         ))}
+          <div className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
+            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+              Contacts
+            </h4>
+            <ul className="list-none mt-4">
+                <li
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+                  <a href="tel:+917726886026">+917726886026</a>
+                </li>
+                <li
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+                  <a href="mailto:teamigoraza@gmail.com">teamigoraza@gmail.com</a>
+                </li>
+            </ul>
+          </div>
+          
       </div>
     </div>
 

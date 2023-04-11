@@ -10,8 +10,8 @@ export const navLinks = [
     title: "About us",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "ourprograms",
+    title: "Our Programs",
   },
   {
     id: "contact",
@@ -62,7 +62,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "My Lif Is My Message.",
+      "Growth and comfort do not coexist",
     name: "Collab Workshops",
     user:"Gowrisankar",
     title: "Founder & CEO",
@@ -71,7 +71,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "My Lif Is My Message.",
+      "Technology is best when it brings people together",
     name: "Incubation Programme",
     user:"Gowrisankar",
 
@@ -81,7 +81,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "My Lif Is My Message.",
+      "Innovation is the ability to see change as an opportunity not a threat",
     name: "Internship Program",
     user:"Gowrisankar",
     title: "Founder & CEO",
@@ -159,19 +159,19 @@ export const footerLinks = [
       },
     ],
   },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.IGORAZA.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.IGORAZA.com/become-a-partner/",
-      },
-    ],
-  },
+  // {
+  //   title: "Partner",
+  //   links: [
+  //     {
+  //       name: "Our Partner",
+  //       link: "https://www.IGORAZA.com/our-partner/",
+  //     },
+  //     {
+  //       name: "Become a Partner",
+  //       link: "https://www.IGORAZA.com/become-a-partner/",
+  //     },
+  //   ],
+  // },
 ];
 
 export const socialMedia = [

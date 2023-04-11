@@ -2,6 +2,7 @@ import styles from "../style";
 import { logo } from "../assets";
 import bg from "../assets/bg.png"
 import { footerLinks, socialMedia } from "../constants";
+import {CgMail} from "react-icons/cg"
 
 const Footer = () => (
   <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>

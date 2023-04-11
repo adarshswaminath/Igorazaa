@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, gmail,linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -191,6 +191,11 @@ export const socialMedia = [
     id: "social-media-2",
     icon: facebook,
     link: "https://www.facebook.com/",
+  },
+  {
+    id: "social-media-5",
+    icon: gmail,
+    link: "teamigoraza@gmail.com",
   },
 ];
 

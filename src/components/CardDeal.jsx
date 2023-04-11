@@ -16,7 +16,7 @@ const CardDeal = () => (
           Igoraza Industrials is a dynamic and innovative startup that offers a range of workshops and programs to help young professionals and entrepreneurs reach their full potential. Our programs are designed to provide participants with the skills, knowledge, and experience they need to succeed in their careers and achieve their goals
         </p>
 
-        <a href="#ourprograms">
+        <a href="#ourprograms" target="_blank">
           <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none mt-10`}>
             Our Programs
           </button>

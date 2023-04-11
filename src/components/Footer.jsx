@@ -13,7 +13,7 @@ const Footer = () => (
           className="w-[272px] h-[77px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          A new way to make the payments easy, reliable and secure.
+        Start with something simple and small, then expand over time
         </p>
       </div>
 
@@ -44,11 +44,11 @@ const Footer = () => (
             <ul className="list-none mt-4">
                 <li
                   className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
-                  <a href="tel:+917726886026">+917726886026</a>
+                  <a href="tel:+917726886026" target="_blank">+917726886026</a>
                 </li>
                 <li
                   className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
-                  <a href="mailto:teamigoraza@gmail.com">teamigoraza@gmail.com</a>
+                  <a href="mailto:teamigoraza@gmail.com" target="_blank">teamigoraza@gmail.com</a>
                 </li>
             </ul>
           </div>

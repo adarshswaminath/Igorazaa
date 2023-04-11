@@ -13,7 +13,7 @@ const Hero = () => {
             <span className="text-gradient">IGOROZA</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
-            <a href="#aboutus">
+            <a href="#aboutus" target="_blank">
             <GetStarted />
             </a>
           </div>

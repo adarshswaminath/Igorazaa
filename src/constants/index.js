@@ -114,8 +114,12 @@ export const footerLinks = [
     title: "IGORAZA Sparklabs",
     links: [
       {
-        name: "Terms & Services",
-        link: "https://www.IGORAZA.com/terms-and-services/",
+        name: "Career",
+        link: "https://wa.me/+917736886026?text=Hey+igoraza+",
+      },
+      {
+        name: "T&C",
+        link: "https://wa.me/+917736886026?text=Hey+igoraza+",
       },
     ],
   },
@@ -123,25 +127,14 @@ export const footerLinks = [
     title: "Community",
     links: [
       {
-        name: "Help Center",
+        name: "Partners",
         link: "https://www.IGORAZA.com/help-center/",
       },
       {
-        name: "Partners",
-        link: "https://www.IGORAZA.com/partners/",
+        name: "Help Center",
+        link: "https://wa.me/+917736886026?text=Hey+igoraza+",
       },
-      {
-        name: "Suggestions",
-        link: "https://www.IGORAZA.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.IGORAZA.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.IGORAZA.com/newsletters/",
-      },
+
     ],
   },
   // {

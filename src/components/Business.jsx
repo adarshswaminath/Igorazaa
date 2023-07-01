@@ -1,7 +1,7 @@
 import { aboutus } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
-
+import {Link } from "react-router-dom"
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== aboutus.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
@@ -28,9 +28,11 @@ const Business = () =>  (
       IGORAZA is a technology startup driven by passionate engineers dedicated to creating exceptional solutions for clients using the latest software and techniques. We value innovation, dedication, and perfection, and are committed to delivering incredible results for our partners
       </p>
 
-      <a href="#consultancy" >
-    <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none mt-10`}>
-    Get Started
+      < a>
+    <button className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none mt-10`}>
+    <Link to='pop' target='_blank'>
+                            Open Second Component
+                        </Link>
   </button>
   </a>
     </div>

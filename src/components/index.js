@@ -11,6 +11,7 @@ import Hero from "./Hero";
 import Features from "./Features"
 import LeadBox from "./LeadBox";
 import Customer from "./Coustomer"
+import Pop from "./Pop";
 export {
   Navbar,
   Billing,
@@ -25,4 +26,5 @@ export {
   Stats,
   Footer,
   Hero,
+  Pop,
 };

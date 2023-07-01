@@ -31,7 +31,7 @@ const Business = () =>  (
       < a>
     <button className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none mt-10`}>
     <Link to='pop' target='_blank'>
-                            Open Second Component
+                            Get Started
                         </Link>
   </button>
   </a>

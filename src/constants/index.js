@@ -76,17 +76,17 @@ export const feedback = [
     name: "Internship Program",
     user:"KAVERI T",
     title: "Co-Founder & CFO",
-    img: people02,
+    img: people03,
   },
-  {
-    id: "feedback-3",
-    content:
-      "IGORAZA creates new worlds.",
-    name: "Incubation Programme",
-    user:"Ashlie Zahra",
-    title: "Business Strategist & COO",
-    img: people02,
-  },
+  // {
+  //   id: "feedback-3",
+  //   content:
+  //     "IGORAZA creates new worlds.",
+  //   name: "Incubation Programme",
+  //   user:"Ashlie Zahra",
+  //   title: "Business Strategist & COO",
+  //   img: people02,
+  // },
   
 ];
 

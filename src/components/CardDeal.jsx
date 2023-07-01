@@ -5,6 +5,7 @@ import { feedback } from "../constants";
 import FeedbackCard from "./FeedbackCard";
 import Box from "./Box";
 import LeadBox from "./LeadBox";
+import Customer from "./Coustomer";
 
 const CardDeal = () => (
   <div id="industarials">
@@ -40,7 +41,7 @@ const CardDeal = () => (
       </div>
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
     <LeadBox/>
-
+    <Customer/>
     <div className="w-full flex text-center items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1] mt-12">
       <h2 className="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full text-center">
         Our leads says about us

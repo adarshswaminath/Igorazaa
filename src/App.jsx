@@ -5,6 +5,7 @@ import {
   Business,
   CardDeal,
   Clients,
+  Portfolio,
   CTA,
   Footer,
   Navbar,
@@ -35,6 +36,7 @@ const App = () => (
           {/* <Customer/> */}
           <CardDeal />
           {/* <Testimonials /> */}
+          <Portfolio/>
           <CTA />
           <Footer />
         </div>

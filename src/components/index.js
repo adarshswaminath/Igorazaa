@@ -11,12 +11,14 @@ import Hero from "./Hero";
 import Features from "./Features"
 import LeadBox from "./LeadBox";
 import Customer from "./Coustomer"
+import Portfolio from "./Portfolio";
 export {
   Navbar,
   Billing,
   CardDeal,
   Business,
   Clients,
+  Portfolio,
   CTA,
   LeadBox,
   Customer,
